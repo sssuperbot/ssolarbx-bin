@@ -1,0 +1,14 @@
+[rpc]
+url="https://api.mainnet-beta.solana.com"
+
+[cli_misc]
+sol_price_usdc=200
+sol_per_token_account=0.002039
+
+[[accounts]]
+name="solarbx-i"
+address=""
+mint=""
+sol_init=0
+mint_init=0
+run_at="2025-01-01"

@@ -3,7 +3,9 @@ url="https://api.mainnet-beta.solana.com"
 
 [bot_misc]
 keypair_path="keypair.txt"
-swap_threads=3
+swap_threads=2
+bind_ips=[
+]
 
 [jupiter]
 url="https://public.jupiterapi.com"
@@ -29,6 +31,7 @@ tags=[
     "birdeye-trending",
     "verified"
 ]
+update_seconds=3600 # every hrs
 
 [swap]
 mint="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" # USDC
