@@ -6,6 +6,8 @@ keypair_path="keypair.txt"
 swap_threads=2
 bind_ips=[
 ]
+jito_bind_ips=[
+]
 
 [jupiter]
 url="https://public.jupiterapi.com"
