@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the new cron job
-CRON_JOB="* * */3 * * cd $PWD && ./run-screens.sh"
+CRON_JOB="0 0 */3 * * cd $PWD && ./run-screens.sh"
 
 # Debug output
 echo "Clearing previous crontab and adding the new job."
