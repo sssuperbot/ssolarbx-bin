@@ -44,3 +44,7 @@ min_gain=0.003
 jito_static_tip_lamports=5000 # ~0.001 USDC
 fetch_blockhash=10 # Secs
 
+[close_account]
+enabled=true
+sol_min=0.01
+
