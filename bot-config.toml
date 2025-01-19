@@ -46,5 +46,5 @@ fetch_blockhash=10 # Secs
 
 [close_account]
 enabled=true
-sol_min=0.01
+sol_min=0.05
 
