@@ -3,7 +3,7 @@ url="https://api.mainnet-beta.solana.com"
 
 [bot_misc]
 keypair_path="keypair.txt"
-swap_threads=2
+swap_threads=4
 bind_ips=[
 ]
 jito_bind_ips=[
@@ -25,7 +25,7 @@ delay=0.3 # secs
 
 [[jito]]
 enabled=true
-url="https://mainnet.block-engine.jito.wtf"
+url="https://ny.mainnet.block-engine.jito.wtf"
 
 [dynamic_mints]
 url="https://tokens.jup.ag/tokens"
@@ -38,6 +38,7 @@ update_seconds=3600 # every hrs
 [swap]
 mint="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" # USDC
 decimal=6
+wrap_and_unwrap_sol=true
 min_spend=5
 max_spend=40
 min_gain=0.003
