@@ -12,3 +12,6 @@ mint=""
 sol_init=0
 mint_init=0
 run_at="2025-01-01"
+payout=0
+server_rent=0
+skip_rate=false
