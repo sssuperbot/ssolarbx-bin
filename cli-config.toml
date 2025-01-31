@@ -2,7 +2,6 @@
 url="https://api.mainnet-beta.solana.com"
 
 [cli_misc]
-sol_price_usdc=200
 sol_per_token_account=0.002039
 
 [[accounts]]
