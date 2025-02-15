@@ -47,6 +47,9 @@ jito_static_tip_lamports=5000 # ~0.001 USDC
 jito_static_tip_percent=0
 fetch_blockhash=10 # Secs
 cu_limit_per_route=150_000
+proxy_wallet=false
+transfer_proxy_lamports=0
+proxy_cu_limit=500
 
 [close_account]
 enabled=true
