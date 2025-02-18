@@ -36,9 +36,18 @@ tags=[
 ]
 update_seconds=3600 # every hrs
 
+[static_mints]
+enabled=false
+mints=[
+    "So11111111111111111111111111111111111111112", #WSOL
+    "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN", # TRUMP
+    "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS", # KMNO
+]
+
 [swap]
 mint="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" # USDC
 wrap_and_unwrap_sol=true
+only_direct_routes=false
 min_spend=5
 max_spend=40
 min_gain=0.003
